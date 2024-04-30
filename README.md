@@ -25,5 +25,5 @@ most important part. Add your answer to this markdown file.
 So the best case is going to be if the array is already sorted because then the function would need the first and only permutation to check that the array is sorted. This would give the best case of $O(n)$ with $n$ being the length of the array
 becasue the function still needs to check if the array is sorted.
 
-The worst case would be if the array was sorted in decending order. The sorted array would end up being the last permutation that the function checks. It would need to generate all permutations giving it a worst case of $O(n!)$ this is super ineficient if the array is large. I believe if you generated the permutatioins randomly and without storing them the average would still be $O(n!)$ because you would still need to generate $n!$ permutations before finding the sorted one. The number of permutations would be different for each run
-and could be greater or less then $O(n!)$.
+The worst case would be if the array was sorted in decending order. The sorted array would end up being the last permutation that the function checks. It would need to generate all permutations giving it a worst case of $O(n!)$ this is super ineficient if the array is large. I believe if you generated the permutatioins randomly and without storing them the average would be $O(n * n!)$ because you need to generate $n!$ permutations before finding the sorted one. The number of permutations would be different for each run
+and could be greater or less then $O(n*n!)$.
